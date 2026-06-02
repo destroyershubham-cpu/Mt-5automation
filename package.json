@@ -1,0 +1,20 @@
+{
+  "name": "mt5-automation",
+  "version": "1.0.0",
+  "description": "Playwright-based automation for Exness MT5 trading terminal",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "node cli.js",
+    "recon:login": "node recon-login.js",
+    "recon:trading": "node recon-trading.js"
+  },
+  "keywords": ["trading", "mt5", "exness", "playwright", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1"
+  }
+}
